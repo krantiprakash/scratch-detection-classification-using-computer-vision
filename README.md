@@ -54,7 +54,7 @@ Macro and Weighted Averages
     Macro Average is calculated by averaging the performance across all classes.
     Weighted Average takes into account the number of samples in each class for performance evaluation.
 
-**Results:**
+**Results for detecting good & bad images:**
 
     Precision (Bad): 0.96
     Recall (Bad): 0.78
