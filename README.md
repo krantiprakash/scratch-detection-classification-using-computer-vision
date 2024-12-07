@@ -41,6 +41,7 @@ Step 3: Bounding Box Drawing
 -->For each detected scratch region, we draw a bounding box on the original image to highlight the scratch.
 
 **Evaluation and Metrics**
+
 Classification Performance
 
 The model's performance is evaluated using several metrics:
