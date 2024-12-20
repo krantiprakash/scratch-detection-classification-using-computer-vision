@@ -23,7 +23,7 @@ The goal of this project is to classify images of text with or without scratches
     ResNet50 was chosen for its ability to handle image classification tasks, especially for detecting patterns like scratches in images. The model is pretrained on ImageNet, which helps it generalize well even on smaller datasets.
     The model is fine-tuned on our dataset for the binary classification task: "Good" vs "Bad" images.
 
-    **Scratch localization using Mask R-CNN**
+    *Scratch localization using Mask R-CNN*
 
     Mask R-CNN is used to localize and detect scratches in bad images by drawing bounding boxes or generating masks. This is chosen for its high precision in instance segmentation tasks.
     The model is configured to detect scratches and output bounding boxes for the regions containing scratches.
